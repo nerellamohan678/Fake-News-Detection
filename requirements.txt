@@ -7,3 +7,4 @@ transformers==4.45.1
 torch 
 flask
 mysql.connector
+tf-keras
