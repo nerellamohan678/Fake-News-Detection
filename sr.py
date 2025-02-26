@@ -5,7 +5,7 @@ from transformers import GPT2Tokenizer, TFGPT2Model
 import streamlit as st
 
 # Load the saved CNN model
-cnn_model = load_model('results (2)/cnn_gpt2_classification_model.h5')
+cnn_model = load_model('cnn_gpt2_classification_model.h5')
 
 # Load GPT-2 tokenizer and model
 tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
